@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="aa"></div>
+</body>
+<script>
+  var LocString=String(window.document.location.href);
+  function getQueryStr()
+  {
+    var args = LocString.split("?");
+    var retval = [];
+
+    if(args[0] == LocString)
+    {
+      return retval;
+    }
+    var str = args[1];
+    args = str.split("&");
+    for(var i = 0; i < args.length; i ++)
+    {
+      str = args[i];
+      var arg = str.split("=");
+      for(var i=0;i<arg.length;i++){
+        retval.push(arg[i])
+      }
+      // if(arg.length <= 1) continue;
+      // if(arg[0] == sArgName) retval = arg[1];
+    }
+    return retval;
+  }
+ var arr= getQueryStr()
+  var tranDate=document.getElementById('aa')
+    for(var i=0;i<arr.length;i++){
+        if(i%2==0){
+          tranDate.innerHTML+=arr[i]
+        }else{
+          tranDate.innerHTML+='='+ arr[i]+'<br/>'
+        }
+    }
+</script>
+</html>

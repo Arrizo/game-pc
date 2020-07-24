@@ -1,0 +1,18 @@
+<svg id="警告" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #fa5656;
+      }
+    </style>
+  </defs>
+  <circle id="椭圆_2" data-name="椭圆 2" class="cls-1" cx="11" cy="11" r="11"/>
+  <g id="组_9" data-name="组 9">
+    <rect id="圆角矩形_4" data-name="圆角矩形 4" class="cls-2" x="9" y="3" width="4" height="10" rx="2" ry="2"/>
+    <circle id="椭圆_3" data-name="椭圆 3" class="cls-2" cx="11" cy="17" r="2"/>
+  </g>
+</svg>
