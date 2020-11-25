@@ -9,10 +9,8 @@ export default {
   name: 'App',
   data () {
     return {
-      obj:{
-        name:'aa',
-        daf:22
-      }
+name:'3333',
+lust:'5555'
     }
   },
   computed: {
