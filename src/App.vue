@@ -9,7 +9,6 @@ export default {
   name: 'App',
   data () {
     return {
-      flag: false
     }
   },
   computed: {
