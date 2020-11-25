@@ -9,6 +9,10 @@ export default {
   name: 'App',
   data () {
     return {
+      obj:{
+        name:'aa',
+        daf:22
+      }
     }
   },
   computed: {
